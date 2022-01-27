@@ -176,6 +176,7 @@ function skmeans(data,k,initial,maxit,fndist) {
 		k : k,
 		idxs : idxs,
 		centroids : ks,
+		count: count,
 		test : test
 	};
 }
